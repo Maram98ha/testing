@@ -14,8 +14,8 @@ assert login_button.is_displayed()
 user_name = driver.find_element(By.XPATH, "//*[@id='username']")
 password = driver.find_element(By.XPATH, "//*[@id='password']")
 # input user name and password
-user_name.send_keys("sandbox")
-password.send_keys("Admin@123")
+user_name.send_keys("####")
+password.send_keys("####")
 # click on login button
 login_button.click()
 driver.get("https://merchant.stag.asyadexpress.com/order/domestic-order")
